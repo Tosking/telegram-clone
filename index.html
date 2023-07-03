@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="normalize.css">
-<body>
-    <header>
-        <div class="container">
+
+<header>
+    <div class="container">
             <div class="header-left">
-                <a href="#" class="head-but">Home</button>
-                <a href="#" class="head-but">FAQ</button>
-                <a href="#" class="head-but">Apps</button>
-                <a href="#" class="head-but">API</button>
-                <a href="#" class="head-but">Protocol</button>
+                <a href="#" class="head-but">Home</a>
+                <a href="#" class="head-but">FAQ</a>
+                <a href="#" class="head-but">Apps</a>
+                <a href="#" class="head-but hidden-mobile">API</a>
+                <a href="#" class="head-but hidden-mobile">Protocol</a>
             </div>
             <div class="header-right">
-                <a href="#" class="head-but">EN</button>
-                <a href="#" class="head-but">Twitter</button>
+                <a href="#" class="head-but">EN</a>
+                <a href="#" class="head-but hidden-mobile">Twitter</a>
+            </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="container" id="main">
+        <div class="main-head">
+            <div class="logo-wrap">
+                <div class="logo">
+                    <img src="logo.png" width="144" height="144" style="display: flex;justify-content: center;margin: 0 auto;">
+                    <div class="logo-name">
+                        Telegram
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+        <div class="main-download">
+            <div class="download-android">
+                <video preload="auto" src="https://telegram.org/img/t_main_Android_demo.mp4" autoplay loop></video>
+                <a href="#" class="download-link">Telegram for <b>Android</b></a>
+            </div>
+            <div class="download-iphone">
+                <video preload="auto" src="https://telegram.org/img/t_main_iOS_demo.mp4" autoplay loop></video>
+                <a href="#" class="download-link">Telegram for <b>Android</b></a>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

@@ -1,3 +1,9 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     position: fixed; 
     border-bottom: 1px solid #e8e8e8;
@@ -9,13 +15,33 @@ header {
     padding: 15px;
 }
 
-@media (min-width: 768px){
+
 .container {
-    width: 1170px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
+@media (min-width: 990px){
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 770px){
+    .container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 550px){
+.hidden-mobile{
+    display: none;
 }
 }
 
@@ -30,4 +56,51 @@ header {
 a {
     color: #0088cc;
     text-decoration-line: none;
+}
+
+.main-download {
+    max-width: 1028px;
+    text-align: center;
+}
+.download-android {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    max-width: 193px;
+    padding: 30px 60px;
+}
+
+.download-iphone {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    max-width: 310px;
+    padding: 30px 60px;
+}
+
+.main-head {
+    padding-top: 50px;
+}
+
+.logo-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0 20px;
+}
+
+.download-link{
+    padding-top: 10px;
+    display: block;
+}
+
+.logo {
+    display: block;
+}
+
+.logo-name {
+    text-align: center;
+    font-size: 36px;
+    color: #4d4d4d;
+    font-weight: bold;
 }
