@@ -1,0 +1,33 @@
+header {
+    position: fixed; 
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+.head-but {
+    padding: 15px;
+}
+
+@media (min-width: 768px){
+.container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+.header-right {
+    float: right !important;
+}
+
+.header-left {
+    float: left !important;
+}
+
+a {
+    color: #0088cc;
+    text-decoration-line: none;
+}
