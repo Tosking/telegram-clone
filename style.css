@@ -176,13 +176,7 @@ a {
 }
 
 .side-news{
-    display: flex;
-    position: absolute;
-    width: 200px;
-    font-size: 12px;
-    right: 500px;
-    padding-top: 30px;
-    line-height: 1.5;
+    position: relative;
 }
 
 .article-head{
@@ -191,14 +185,20 @@ a {
 }
 
 .news-article{
-    display: block;
+    display: inline-block;
     margin-top: 10px;
 }
 
 .side-news-wrap{
+    display: flex;
+    width: 200px;   
+    font-size: 12px;
+    padding-top: 30px;
+    line-height: 1.5;
+    float: right;
 }
 
-.side-news::before{
+.side-news-wrap::before{
     content: ' ';
     display: block;
     width: 5px;
@@ -210,6 +210,7 @@ a {
 }
 
 .news-header{
+    display: block;
     font-size: 16px;
     font-weight: bold;
 }
