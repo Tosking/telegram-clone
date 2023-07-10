@@ -60,7 +60,14 @@ footer {
 
 @media (max-width: 550px){
 .hidden-mobile{
-    display: none;
+    display: none !important;
+}
+.footer-mobile-wrap{
+    display: flex !important;
+}
+footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 }
 
@@ -293,6 +300,16 @@ a {
     .sticker {
     width: 50%;
     }
+    .download-iphone {
+        padding: 20px 0px;
+    }
+    .download-android {
+        padding: 20px 0px;
+    }
+    .recent-news-article{
+        max-width: 100%;
+        display: inline;
+    }
 }
 
 @media (max-width: 668px) {
@@ -317,4 +334,18 @@ a {
     line-height: 1.5;
     padding-left: 30px;
     padding-right: 30px;
+}
+.media{
+    width: 100%;
+    height: auto;
+}
+
+.footer-mobile-wrap{
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-mobile-link{
+    padding: 0px 10px;
 }

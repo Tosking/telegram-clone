@@ -56,16 +56,16 @@
         </div>
         <div class="main-download container">
             <div class="download-android">
-                <video preload="auto" src="https://telegram.org/img/t_main_Android_demo.mp4" autoplay loop></video>
+                <video preload="auto" src="https://telegram.org/img/t_main_Android_demo.mp4" autoplay loop class="media"></video>
                 <a href="#" class="download-link underline-button">Telegram for <b>Android</b></a>
             </div>
             <div class="download-iphone">
-                <video preload="auto" src="https://telegram.org/img/t_main_iOS_demo.mp4" autoplay loop></video>
+                <video preload="auto" src="https://telegram.org/img/t_main_iOS_demo.mp4" autoplay loop class="media"></video>
                 <a href="#" class="download-link underline-button">Telegram for <b>iPhone</b> / <b>iPad</b></a>
             </div>
         </div>
         <div class="download-desktop container">
-            <img src="img/desktop.png" style="display: flex;justify-content: center;margin: 0 auto;">
+            <img src="img/desktop.png" class="media" style="display: flex;justify-content: center;margin: 0 auto; max-width: 574px;">
             <div class="download-desktop-links">
                 <div class="download-pclinux">
                     <a href="#" class="download-link underline-button">Telegram for <b>PC / Linux</b></a>
@@ -81,7 +81,7 @@
             </div>
             <div class="recent-news-articles">
                 <div class="recent-news-article">
-                    <img class="recent-news-image" src="https://telegram.org/file/464001391/12a08/mxuFQFqs9ig.226529/b33244c17e8def5591">
+                    <img class="recent-news-image media" src="https://telegram.org/file/464001391/12a08/mxuFQFqs9ig.226529/b33244c17e8def5591">
                     <div class="recent-news-text">
                         <a href="#" style="font-weight: bold;">Shareable Chat Folders, Custom Wallpapers and More</a>
                         <div class="recent-news-description">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="recent-news-article">
-                    <img class="recent-news-image" src="https://telegram.org/file/464001102/1249e/myZil1nQBVo.279291/44cdbec9ff40e887d5">
+                    <img class="recent-news-image media" src="https://telegram.org/file/464001102/1249e/myZil1nQBVo.279291/44cdbec9ff40e887d5">
                     <div class="recent-news-text">
                         <a href="#" style="font-weight: bold;">Power Saving Mode and More</a>
                         <div class="recent-news-description">
@@ -207,7 +207,7 @@
     </div>
 </body>
 <footer>
-    <div class="footer-wrap">
+    <div class="footer-wrap hidden-mobile">
         <div class="footer-description">
             <h4 style="padding-bottom: 1px;">Telegram</h4>
             <div class="footer-description-text">
@@ -216,28 +216,35 @@
         </div>
         <div class="column">
             <h4><a href="#">Platform</a></h4>
-            <a href="#" class="footer-link">API</a>
-            <a href="#" class="footer-link">Translations</a>
-            <a href="#" class="footer-link">Instant View</a>
+            <a href="#" class="footer-link hidden-mobile">API</a>
+            <a href="#" class="footer-link hidden-mobile">Translations</a>
+            <a href="#" class="footer-link hidden-mobile">Instant View</a>
         </div>
         <div class="column">
             <h4><a href="#">Desktop Apps</a></h4>
-            <a href="#" class="footer-link">PC/Mac/Linux</a>
-            <a href="#" class="footer-link">macOS</a>
-            <a href="#" class="footer-link">Web-browser</a>
+            <a href="#" class="footer-link hidden-mobile">PC/Mac/Linux</a>
+            <a href="#" class="footer-link hidden-mobile">macOS</a>
+            <a href="#" class="footer-link hidden-mobile">Web-browser</a>
         </div>
         <div class="column">
             <h4><a href="#">Mobile Apps</a></h4>
-            <a href="#" class="footer-link">iPhone/iPad</a>
-            <a href="#" class="footer-link">Android</a>
-            <a href="#" class="footer-link">Mobile Web</a>
+            <a href="#" class="footer-link hidden-mobile">iPhone/iPad</a>
+            <a href="#" class="footer-link hidden-mobile">Android</a>
+            <a href="#" class="footer-link hidden-mobile">Mobile Web</a>
         </div>
         <div class="column">
             <h4><a href="#">About</a></h4>
-            <a href="#" class="footer-link">FAQ</a>
-            <a href="#" class="footer-link">Privacy</a>
-            <a href="#" class="footer-link">Press</a>
+            <a href="#" class="footer-link hidden-mobile">FAQ</a>
+            <a href="#" class="footer-link hidden-mobile">Privacy</a>
+            <a href="#" class="footer-link hidden-mobile">Press</a>
         </div>
+    </div>
+    <div class="footer-mobile-wrap">
+        <a href="#" class="footer-mobile-link">About</a>
+        <a href="#" class="footer-mobile-link">Blog</a>
+        <a href="#" class="footer-mobile-link">Apps</a>
+        <a href="#" class="footer-mobile-link">Platform</a>
+        <a href="#" class="footer-mobile-link">Twitter</a>
     </div>
 </footer>
 </html>
