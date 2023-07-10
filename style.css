@@ -22,6 +22,16 @@ footer {
 }
 .head-but {
     padding: 15px;
+    border-radius: 2px;
+}
+
+.underline-button{
+    transition: 0.2s;
+    border-bottom: 0px solid transparent;
+}
+
+.underline-button:hover{
+    border-bottom: 3px solid #179cde;
 }
 
 
