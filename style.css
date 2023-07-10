@@ -213,3 +213,97 @@ a {
     font-size: 16px;
     font-weight: bold;
 }
+
+.recent-news-wrap{
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+.recent-news-image{
+    display: block;
+    max-height: 220px;
+    margin: 0 auto;
+}
+
+.recent-news-article{
+    display: table-cell;
+    padding: 15px 20px;
+    max-width: 30%;
+    height: 340px;
+}
+
+.recent-news-articles{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+.recent-news-title{
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.recent-news-text{
+    text-align: left;
+}
+
+.recent-news-description{
+    line-height: 1.5;
+    font-size: 14px;
+    color: #333;
+    padding-top: 15px;
+}
+.stickers-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 18px auto 0px;
+    padding-bottom: 100px;
+}
+.stickers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 950px;
+    margin: 18px auto 0px;
+}
+
+.sticker{
+    position: relative;
+    flex: 0 1 auto;
+    width: 33.33%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .sticker {
+    width: 50%;
+    }
+}
+
+@media (max-width: 668px) {
+    .sticker {
+    width: 100%;
+    }
+}
+
+.sticker-image{
+    width: 160px;
+    height: 160px;
+}
+
+.sticker-title{
+    color: rgb(0, 136, 204);
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.sticker-description{
+    font-size: 15px;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-right: 30px;
+}
